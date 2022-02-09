@@ -75,7 +75,7 @@ class _NewsPageState extends State<NewsPage>
       if (state is CaseError) {
         return Text(
           'Something went wrong!',
-          style: TextStyle(color: Colors.red),
+          style: TextStyle(color: Colors.blue),
         );
       }
       return Center(
