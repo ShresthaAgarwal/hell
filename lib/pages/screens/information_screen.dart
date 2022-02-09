@@ -21,11 +21,11 @@ class _InformationScreenState extends State<InformationScreen> with AutomaticKee
         padding: EdgeInsets.only(left: 20, right: 20, top: 20),
         child: Column(
           children: <Widget>[
-            InformationTitleCard(icon: LineIcons.share_alt, iconColor: CardColors.blue, subTitle: 'Learn how Covid-19 spread', title: 'How it Spreads?',),
+            InformationTitleCard(icon: LineIcons.share_alt, iconColor: CardColors.yellow, subTitle: 'Learn how Covid-19 spread', title: 'How it Spreads?',),
             SizedBox(height: hp(3)),
-            InformationTitleCard(icon: LineIcons.warning, iconColor: CardColors.cyan, subTitle: 'Learn Covid-19 symptoms', title: 'Symptoms',),
+            InformationTitleCard(icon: LineIcons.warning, iconColor: CardColors.orange, subTitle: 'Learn Covid-19 symptoms', title: 'Symptoms',),
             SizedBox(height: hp(3)),
-            InformationTitleCard(icon: LineIcons.heartbeat, iconColor: CardColors.red, subTitle: 'Learn Covid-19 treatments', title: 'Prevention & treatment',),
+            InformationTitleCard(icon: LineIcons.heartbeat, iconColor: CardColors.blue, subTitle: 'Learn Covid-19 treatments', title: 'Prevention & treatment',),
             SizedBox(height: hp(3)),
             InformationTitleCard(icon: LineIcons.question_circle, iconColor:CardColors.green, subTitle: 'What to do if you get the virus', title: 'What to do',),
           ],
