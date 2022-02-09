@@ -27,7 +27,7 @@ class _InformationScreenState extends State<InformationScreen> with AutomaticKee
             SizedBox(height: hp(3)),
             InformationTitleCard(icon: LineIcons.heartbeat, iconColor: CardColors.blue, subTitle: 'Learn Covid-19 treatments', title: 'Prevention & treatment',),
             SizedBox(height: hp(3)),
-            InformationTitleCard(icon: LineIcons.question_circle, iconColor:CardColors.green, subTitle: 'What to do if you get the virus', title: 'What to do',),
+            InformationTitleCard(icon: LineIcons.question_circle, iconColor:CardColors.green, subTitle: 'What to do if you get the virus', title: 'What to do?',),
           ],
         )
       ),
